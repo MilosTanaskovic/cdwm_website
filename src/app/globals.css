@@ -2,6 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "WorkSans-Light";
+  font-style: normal;
+  font-weight: 300;
+  font-display: fallback;
+  src: local(""), url("/font/Work_Sans/WorkSans-Light.woff2") format("woff2");
+}
+@font-face {
+  font-family: "WorkSans-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("/font/Work_Sans/WorkSans-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "WorkSans-Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("/font/Work_Sans/WorkSans-Medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: "WorkSans-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("/font/Work_Sans/WorkSans-Bold.woff2") format("woff2");
+}
 @layer base {
   html {
     font-family: "Cabin", sans-serif;

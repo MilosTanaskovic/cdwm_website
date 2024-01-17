@@ -1,5 +1,4 @@
 import type { Config } from 'tailwindcss'
-import defaultTheme from 'tailwindcss/defaultTheme'
 
 const config: Config = {
   content: [
@@ -9,8 +8,15 @@ const config: Config = {
   ],
   theme: {
     fontFamily: {
-      cabin: ['Cabin', ...defaultTheme.fontFamily.sans],
-      sans: ['Work Sans', ...defaultTheme.fontFamily.sans],
+      // Cabin_Codensed
+      cabin: ['Cabin', 'sans-serif'],
+      // Cabin if I need
+      // Work Sans
+      sans_light: ['WorkSans-Light', 'sans-serif'],
+      sans_regular: ['WorkSans-Regular', 'sans-serif'],
+      sans_medium: ['WorkSans-Medium', 'sans-serif'],
+      sans_bold: ['WorkSans-Bold', 'sans-serif'],
+      //'sans': ['sans-serif'],
     },
     extend: {
       backgroundImage: {
